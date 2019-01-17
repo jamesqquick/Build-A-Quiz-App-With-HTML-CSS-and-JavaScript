@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quick Quiz</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="game" class="page hidden justify-center flex-column ">
+        <button onClick="navigateTo('home')">Go Home</button>
+        <div id="hud">
+          <h3 id="questionCounter">Question 1/5</h3>
+          <h3 id="score">Score: 0</h3>
+        </div>
+        <h2 id="question"></h2>
+        <div class="choice-container">
+          <p class="choice-prefix">A</p>
+          <p class="choice" data-number="1"></p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">B</p>
+          <p class="choice" data-number="2"></p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">C</p>
+          <p class="choice" data-number="3"></p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">D</p>
+          <p class="choice" data-number="4"></p>
+        </div>
+      </div>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
