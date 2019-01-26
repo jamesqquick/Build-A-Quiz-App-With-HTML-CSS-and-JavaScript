@@ -2,19 +2,32 @@
 .choice-container {
   display: flex;
   margin-bottom: 5px;
-  width: 100% !important;
+  width: 100%;
+  font-size: 18px;
+  border: 1px solid #56a5eb;
+  margin-bottom: 10px;
+  color: #56a5eb;
+  background-color: white;
+}
+
+.choice-container:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 14px 0 rgba(86, 185, 235, 0.5);
+  transform: translateY(-1px);
+  transition: transform 150ms;
+  transition: transform 150ms, -webkit-transform 150ms;
 }
 
 .choice-prefix {
-  padding: 5px 0;
-  width: 50px;
-  text-align: center;
-  border-right: 1px solid black;
+  padding: 15px 25px;
+  background-color: #56a5eb;
+  color: white;
 }
 
-.choice {
-  padding: 5px 0;
+.choice-text {
+  padding: 15px;
   flex-grow: 1;
+  color: black;
 }
 
 .correct {
@@ -28,6 +41,7 @@
 #hud {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 15px;
 }
 
 @keyframes correct {

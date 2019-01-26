@@ -11,12 +11,15 @@
   <body>
     <div class="container">
       <div id="end" class="flex-center flex-column">
-        <h1 class="text-center">Great Job!</h1>
-        <h2 id="finalScore">100</h2>
-        <a class="btn" href="/">Go Home</a>
+        <h1 class="text-xl" id="finalScore"></h1>
         <form>
-          <label for="username">Username</label>
-          <input type="text" name="username" id="username" />
+          <!-- <label for="username">Username</label> -->
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="username"
+          />
           <button
             class="btn"
             type="submit"
@@ -27,6 +30,7 @@
             Save
           </button>
         </form>
+        <a class="btn" href="/">Go Home</a>
       </div>
     </div>
     <script src="end.js"></script>

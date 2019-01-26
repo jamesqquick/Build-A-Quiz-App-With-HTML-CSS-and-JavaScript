@@ -3,4 +3,14 @@
 #highScoresList {
   padding-left: 0;
   list-style: none;
+  margin-bottom: 40px;
+}
+
+.high-score {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.high-score:hover {
+  transform: scale(1.05);
 }

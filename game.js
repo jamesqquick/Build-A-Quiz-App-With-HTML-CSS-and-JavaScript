@@ -1,6 +1,6 @@
 //GAME Elements
 const question = document.getElementById("question");
-const choices = Array.from(document.getElementsByClassName("choice"));
+const choices = Array.from(document.getElementsByClassName("choice-text"));
 const scoreText = document.getElementById("score");
 const questionCounterText = document.getElementById("questionCounter");
 
@@ -62,6 +62,7 @@ getNewQuestion = () => {
 
   choices.forEach(choice => {
     const number = choice.dataset["number"];
+    console.log("setting choice");
     choice.innerHTML = currentQuestion["choice" + number];
   });
 
