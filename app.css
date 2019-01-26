@@ -1,12 +1,18 @@
 /* Resets */
-body,
-html {
-  margin: 0;
-  padding: 0;
-}
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* TEXT */
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 10px;
 }
 
 /* Utilities */
@@ -24,35 +30,18 @@ html {
 .container > * {
   width: 100%;
 }
-.full {
-  height: 100vh;
-  width: 100vw;
-  padding: 4rem;
-}
 
 .flex-column {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .flex-center {
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-
-  -ms-flex-align: center;
   align-items: center;
 }
 
 .justify-center {
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -67,121 +56,6 @@ html {
 #end,
 #game {
   position: relative;
-}
-
-/* GAME */
-
-.question {
-  text-align: center;
-}
-
-.choice-container {
-  display: flex;
-  margin-bottom: 5px;
-  border: 1px solid black;
-}
-
-.choice-prefix {
-  font-size: 18px;
-  margin: 0;
-  padding: 15px 0;
-  width: 50px;
-  text-align: center;
-  border-right: 1px solid black;
-}
-
-.choice {
-  flex-grow: 1;
-  font-size: 18px;
-  margin: 0;
-  padding: 15px;
-}
-
-.choice-container:hover {
-  -webkit-box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
-  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
-  -webkit-transform: translateY(-2px);
-  transform: translateY(-2px);
-  -webkit-transition: -webkit-transform 150ms;
-  transition: -webkit-transform 150ms;
-  transition: transform 150ms;
-  transition: transform 150ms, -webkit-transform 150ms;
-  cursor: pointer;
-}
-
-.correct {
-  -webkit-animation: correct 1s;
-  animation: correct 1s;
-}
-
-.incorrect {
-  -webkit-animation: incorrect 750ms;
-  animation: incorrect 750ms;
-}
-
-#hud {
-  display: flex;
-  justify-content: space-between;
-}
-
-@-webkit-keyframes correct {
-  0% {
-    border-color: green;
-    background-color: green;
-  }
-  25% {
-    border-color: green;
-    background-color: green;
-  }
-  100% {
-    border-color: black;
-    background-color: white;
-  }
-}
-
-@keyframes correct {
-  0% {
-    border-color: green;
-    background-color: green;
-  }
-  25% {
-    border-color: green;
-    background-color: green;
-  }
-  100% {
-    border-color: black;
-    background-color: white;
-  }
-}
-
-@-webkit-keyframes incorrect {
-  0% {
-    border-color: red;
-    background-color: red;
-  }
-  25% {
-    border-color: red;
-    background-color: red;
-  }
-  100% {
-    border-color: black;
-    background-color: white;
-  }
-}
-
-@keyframes incorrect {
-  0% {
-    border-color: red;
-    background-color: red;
-  }
-  25% {
-    border-color: red;
-    background-color: red;
-  }
-  100% {
-    border-color: black;
-    background-color: white;
-  }
 }
 
 /* FORMS */
@@ -207,33 +81,33 @@ select {
 select {
   display: block;
 }
-button {
+.btn {
   font-size: 16px;
-  height: 40px;
+  padding: 10px 0;
   width: 200px;
+  text-align: center;
   border: 1px solid black;
   margin-bottom: 10px;
+  text-decoration: none;
+  color: black;
 }
 
-button:hover {
+.btn:hover {
   cursor: pointer;
-  -webkit-box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
   box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
-  -webkit-transform: translateY(-2px);
   transform: translateY(-2px);
-  -webkit-transition: -webkit-transform 150ms;
   transition: -webkit-transform 150ms;
   transition: transform 150ms;
   transition: transform 150ms, -webkit-transform 150ms;
 }
 
-button[disabled] {
+.btn[disabled] {
   color: white;
   background: grey;
   border: none;
 }
 
-button[disabled]:hover {
+.btn[disabled]:hover {
   cursor: not-allowed;
   box-shadow: none;
   transform: none;

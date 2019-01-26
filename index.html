@@ -9,69 +9,20 @@
   </head>
   <body>
     <div class="container">
-      <div id="home" class="page flex-center flex-column ">
+      <div id="home" class="flex-center flex-column ">
         <h1>Quick Quiz</h1>
-        <button onclick="playGame('')">Play</button>
-        <button onclick="showHighScores()">High Scores</button>
-      </div>
-
-      <div id="game" class="page hidden justify-center flex-column ">
-        <button onClick="navigateTo('home')">Go Home</button>
-        <div id="hud">
-          <h3 id="questionCounter">Question 1/5</h3>
-          <h3 id="score">Score: 0</h3>
-        </div>
-        <h2 id="question">What is the name of the thing?!</h2>
-        <div class="choice-container">
-          <p class="choice-prefix">A</p>
-          <p class="choice" data-number="1">Choice 1!</p>
-        </div>
-        <div class="choice-container">
-          <p class="choice-prefix">B</p>
-          <p class="choice" data-number="2">Choice 2!</p>
-        </div>
-        <div class="choice-container">
-          <p class="choice-prefix">C</p>
-          <p class="choice" data-number="3">Choice 3!</p>
-        </div>
-        <div class="choice-container">
-          <p class="choice-prefix">D</p>
-          <p class="choice" data-number="4">Choice 4!</p>
-        </div>
-      </div>
-
-      <div id="end" class="page hidden flex-center flex-column">
-        <h1 class="text-center">Great Job!</h1>
-        <h2 id="finalScore">100</h2>
-        <button onClick="navigateTo('home')">Go Home</button>
-        <form>
-          <label for="username">Username</label>
-          <input type="text" name="username" id="username" />
-          <button
-            type="submit"
-            id="saveScoreBtn"
-            onclick="saveHighScore()"
-            disabled
-          >
-            Save
-          </button>
-        </form>
-      </div>
-
-      <div id="highScores" class="page hidden  flex-center flex-column">
-        <h1 id="finalScore">High Scores</h1>
-        <ul id="highScoresList"></ul>
-        <button onClick="navigateTo('home')">Go Home</button>
+        <a class="btn" href="/game.html">Play</a>
+        <a class="btn" href="/highscores.html">High Scores</a>
       </div>
     </div>
     <script src="app.js"></script>
   </body>
 </html>
 
-<!-- <button onclick="navigateTo('submitQuestion')">Submit Question</button> -->
+<!-- <button class="btn" onclick="navigateTo('submitQuestion')">Submit Question</button> -->
 
-<!-- <div id="submitQuestion" class="page hidden  flex-center flex-column">
-        <button onClick="navigateTo('home')">Go Home</button>
+<!-- <div id="submitQuestion" class=" flex-center flex-column">
+        <button class="btn" onClick="navigateTo('home')">Go Home</button>
         <h2 class="text-center">Submit a new question!</h2>
         <form>
           <label for="question">Question</label>
@@ -91,6 +42,6 @@
             <option value="1">3</option>
             <option value="1">4</option>
           </select>
-          <button type="submit" id="submitScoreBtn">Submit</button>
+          <button class="btn" type="submit" id="submitScoreBtn">Submit</button>
         </form>
       </div> -->
