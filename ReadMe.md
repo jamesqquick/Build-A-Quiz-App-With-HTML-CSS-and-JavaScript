@@ -69,6 +69,8 @@ Resources
 
 In this video, we will create a Heads Up Display (HUD) for our quiz app. This will display the user's score and current question number.
 
+Resources
+
 - [ES6 Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
 
 ## 6. Create a Progress Bar
