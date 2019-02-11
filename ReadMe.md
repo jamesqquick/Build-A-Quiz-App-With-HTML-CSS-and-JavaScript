@@ -39,7 +39,7 @@ Resources
 - [Understanding REM Units](https://www.sitepoint.com/understanding-and-using-rem-units-in-css/)
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
-## 2. Create and Scaffold the Game Page
+## 2. Create and Style the Game Page
 
 In this video, we will create the Game Page and display static question and answer information. Eventually, we will load questions from an API, but for now, we will hard code one question so to establish styling.
 
@@ -75,7 +75,7 @@ In this video, we will create a Heads Up Display (HUD) for our quiz app. This wi
 
 In this video, we will take our HUD one step further by creating a visual progress bar to track the user's progress through the questions.
 
-## 7. Create and Scaffold the End Page
+## 7. Create and Style the End Page
 
 In this video, we will create our End page where we will display the user's achieved score. This screen will provide a form for saving the score and links for playing again or going home.
 
@@ -83,7 +83,7 @@ Resources
 
 - [Local Storage](https://www.w3schools.com/jsref/prop_win_localstorage.asp)
 
-## 8. Same High Scores in Local Storage
+## 8. Save High Scores in Local Storage
 
 In this video, we will save and maintain a high scores array in Local Storage. To do this, we will need to JSON.stringify() and JSON.parse() to convert our high score array to a string and visa versa.
 
@@ -102,7 +102,7 @@ Resources
 - [Array Map](https://www.w3schools.com/jsref/jsref_map.asp)
 - [Array Join](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
 
-## 10. Fetch Questions From Local JSON File
+## 10. Fetch API to Load Questions From Local JSON File
 
 In this video, we will move our sample questions from a hard coded array to an external .json file. This will help clean up our Game.js file and set ourselves up to request questions from an API in the next video.
 
@@ -111,7 +111,7 @@ Resources
 - [How to Use the Fetch API](https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data)
 - [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise_)
 
-## 11. Fetch API Questions from Open Trivia API
+## 11. Fetch API to Load Questions from Open Trivia API
 
 In this video, we will use Fetch to request a list of questions from the Open Trivia DB API.
 
@@ -122,7 +122,7 @@ Reources
 - [Array Map](https://www.w3schools.com/jsref/jsref_map.asp)
 - [Array For Each](https://www.w3schools.com/jsref/jsref_foreach.asp)
 
-## 12. Add a Spinning Loader
+## 12. Create a Spinning Loader
 
 In this video, we will create a simple spinning loader in CSS that will be displayed until we are finished requesting/loading questions from the API.
 
