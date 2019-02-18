@@ -1,6 +1,6 @@
 # Build a Quiz App with HTML, CSS, and JavaScript
 
-![Home Screen](./images/cover.png)
+[yt_playlist id="https://www.youtube.com/playlist?list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF"]
 
 Build a Quiz App with HTML, CSS, and JavaScript to improve your Core Web Development
 
