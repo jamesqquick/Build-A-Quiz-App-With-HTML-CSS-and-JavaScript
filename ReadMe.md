@@ -48,7 +48,7 @@ In this video, we will create the Game Page and display static question and answ
 
 ## 3. Display Hard Coded Question and Answers
 
-In this video, we will load questions from a hard coded array and iterate through available questions as the use answers them. We will use custom data attributes, the ES6 spread operator, and JavaScript arrow functions.
+In this video, we will load questions from a hard coded array and iterate through available questions as the user answers them. We will use custom data attributes, the ES6 spread operator, and JavaScript arrow functions.
 
 Resources
 
