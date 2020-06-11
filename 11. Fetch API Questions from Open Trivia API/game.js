@@ -18,7 +18,6 @@ fetch(
         return res.json();
     })
     .then((loadedQuestions) => {
-        console.log(loadedQuestions.results);
         questions = loadedQuestions.results.map((loadedQuestion) => {
             const formattedQuestion = {
                 question: loadedQuestion.question,

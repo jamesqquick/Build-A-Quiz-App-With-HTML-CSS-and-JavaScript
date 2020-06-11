@@ -26,7 +26,6 @@ fetch(
             };
 
             const answerChoices = [...loadedQuestion.incorrect_answers];
-            console.log(answerChoices);
             formattedQuestion.answer = Math.floor(Math.random() * 4) + 1;
             answerChoices.splice(
                 formattedQuestion.answer - 1,
