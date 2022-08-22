@@ -106,6 +106,7 @@ Resources
 -   [Array Sort](https://www.w3schools.com/js/js_array_sort.asp)
 -   [Array Map](https://www.w3schools.com/jsref/jsref_map.asp)
 -   [Array Join](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
+-   [Arrays in JavaScript](https://www.scaler.com/topics/javascript/javascript-array/)
 
 ## 10. Fetch API to Load Questions From Local JSON File
 
