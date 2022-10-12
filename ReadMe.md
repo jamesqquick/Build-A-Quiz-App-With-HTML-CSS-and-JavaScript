@@ -32,7 +32,7 @@ Resources
 
 ## 1. Create and Style the Home Page
 
-In this video, we are going to create the home page along with a good chunk of the necessary CSS. The home page will consist of a few links for the Game and High Scores pages. We will also create helper CSS classes for Flexbox, buttons, and hiding elements.
+In this video, we are going to create the home page along with a good chunk of the [necessary CSS](https://www.interviewbit.com/css-cheat-sheet/). The home page will consist of a few links for the Game and High Scores pages. We will also create helper CSS classes for Flexbox, buttons, and hiding elements.
 
 I encourage you all to take a look at Emmet snippets for generating HTML and CSS.
 
