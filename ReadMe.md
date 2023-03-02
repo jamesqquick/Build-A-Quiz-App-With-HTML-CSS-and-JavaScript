@@ -27,8 +27,9 @@ In this course, we are going to use fundamental HTML, CSS, and JavaScript skills
 Resources
 
 -   [Course Source Code](https://github.com/jamesqquick/Design-And-Build-A-Quiz-App)
--   [Learn Build Teach Newsletter](https://www.learnbuildteach.com/)
--   [Learn Build Teach YouTube Channel](https://www.youtube.com/c/jamesqquick)
+-   [Learn Build Teach Discord](https://learnbuildteach.com/)
+
+> If you have questions, please ask them in the [Learn Build Teach Discord.](https://learnbuildteach.com/)
 
 ## 1. Create and Style the Home Page
 
